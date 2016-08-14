@@ -1,0 +1,94 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+    font-family: 'Strait', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+article {
+    max-width: 50em;
+    margin:auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    max-width: 54em;
+    margin: auto;
+    height: 2px;
+    background-color: black;
+}
+
+footer {
+    width: 50em;
+    margin: 0 auto;
+    height:50px;
+
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    max-width: 50em;
+    margin:0 auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    max-height:100px;
+}
+
+.logo-img {
+
+    height:120px
+
+}
+.smiley {
+    font-size: 1.75em;
+}
+.fa {
+    font-size:2em;
+    text-decoration: none;
+    float:right;
+    margin-right: calc((10% - 10px)/3);
+    color: #5E740B;
+}
+
+#viewSource {
+    font-size: 2em;
+    text-decoration: none;
+    color: #5E740B;
+}
+
+/*@media screen and (max-width: 600px) {
+    picture {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    picture {
+        width: 50vw;
+    }
+}
